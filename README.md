@@ -48,4 +48,18 @@ Este proyecto es una réplica animada de la página de inicio de **Facebook**, d
 ---
 
 > 🎉 **Tip:** ¡Asegúrate de hacer pruebas en distintos navegadores y dispositivos para comprobar la adaptabilidad del diseño!
+## 📬 Contacto
+
+Para más información o asistencia, puedes contactarme en:
+
+[![LinkedIn](https://img.shields.io/badge/-LinkedIn-blue?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/tu_usuario)
+[![Gmail](https://img.shields.io/badge/-Gmail-red?style=for-the-badge&logo=gmail&logoColor=white)](mailto:tu_correo@gmail.com)
+[![WhatsApp](https://img.shields.io/badge/-WhatsApp-green?style=for-the-badge&logo=whatsapp)](https://wa.me/tu_numero)
+[![Facebook](https://img.shields.io/badge/-Facebook-blue?style=for-the-badge&logo=facebook)](https://facebook.com/tu_usuario)
+
+---
+
+## 🖥️ Mensaje Animado
+
+<img src="https://dummyimage.com/300x80/000/ff0000&text=Welcome!" alt="Banner Animado">
 
