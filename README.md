@@ -56,7 +56,7 @@ Para más información o asistencia, puedes contactarme en:
 [![LinkedIn](https://img.shields.io/badge/-LinkedIn-blue?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/tu_usuario)
 [![Gmail](https://img.shields.io/badge/-Gmail-red?style=for-the-badge&logo=gmail&logoColor=white)](mailto:tu_correo@gmail.com)
 [![WhatsApp](https://img.shields.io/badge/-WhatsApp-green?style=for-the-badge&logo=whatsapp)](https://wa.me/tu_numero)
-[![Facebook](https://img.shields.io/badge/-Facebook-blue?style=for-the-badge&logo=facebook)](https://facebook.com/tu_usuario)
+[![Facebook](https://img.shields.io/badge/-Facebook-blue?style=for-the-badge&logo=facebook)]([https://facebook.com/tu_usuario](https://www.facebook.com/megustaelchaufa13579?locale=es_LA))
 
 ---
 
