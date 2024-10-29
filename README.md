@@ -1,19 +1,17 @@
 # 📂 Repositorio de Marcos - Facebook Login
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/3e97c46c-46fb-490a-b059-b783c4855bbc" alt="anonimous-hacker" width="500">
+</div>
 
 Este proyecto es una réplica animada de la página de inicio de **Facebook**, diseñada para practicar habilidades modernas de maquetación y diseño.
 
 - **Tecnologías:** HTML y CSS.
 - **Características de diseño:** Uso de unidades de medida en `rem` y `flexbox` para una estructura flexible y adaptable.
-
-![anonimous-hacker](https://github.com/user-attachments/assets/3e97c46c-46fb-490a-b059-b783c4855bbc)
-
+- 
 ## 🎥 Vista Previa Animada
 
 ### 🖥️📱 Cambio de Versión Escritorio a Móvil:
 
-<div align="center">
-  <img src="https://github.com/user-attachments/assets/3e97c46c-46fb-490a-b059-b783c4855bbc" alt="anonimous-hacker" width="500">
-</div>
 ---
 
 ## 📸 Capturas de Pantalla
