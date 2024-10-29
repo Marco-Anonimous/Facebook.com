@@ -61,5 +61,6 @@ Para más información o asistencia, puedes contactarme en:
 
 ## 🖥️ Mensaje Animado
 
-<img src="https://dummyimage.com/300x80/000/ff0000&text=Welcome!" alt="Banner Animado">
+<marquee behavior="scroll" direction="left">🚀 ¡Bienvenido a mi perfil de GitHub! 🚀</marquee>
+
 
