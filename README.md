@@ -65,32 +65,6 @@ Para más información o asistencia, puedes contactarme en:
   🚀 ¡Explora mis proyectos y colaboremos juntos! 🚀
 </marquee>
 
-const axios = require('axios')
-const Welcomer = require('welcomer-gif')
-const { writeFile } = require('fs-extra')
+![anonimous-hacker](https://github.com/user-attachments/assets/3e97c46c-46fb-490a-b059-b783c4855bbc)
 
-const getBuffer = async (url) =>
-  (
-    await axios.get(url, {
-      responseType: 'arraybuffer',
-    })
-  ).data
-
-const welcomer = async () => {
-  const avatar = await getBuffer('https://telegra.ph/file/59952c903fdfb10b752b3.jpg')
-  const image = await new Welcomer()
-    .setBackground('https://i.pinimg.com/originals/07/28/dc/0728dc400eca09632215055ff003d8bf.gif')
-    .setGIF(true)
-    .setAvatar(avatar)
-    .setName('AlιAryαɴTech')
-    .setDiscriminator(1100)
-    .setBlur(2)
-  const buffer = await image.generate()
-
-  writeFile('buffer.gif', buffer, (err) => {
-    if (err) throw err
-  })
-  console.log('successful')
-}
-welcomer()
 
