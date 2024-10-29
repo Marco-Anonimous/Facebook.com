@@ -7,7 +7,6 @@ Este proyecto es una réplica animada de la página de inicio de **Facebook**, d
 
 - **Tecnologías:** HTML y CSS.
 - **Características de diseño:** Uso de unidades de medida en `rem` y `flexbox` para una estructura flexible y adaptable.
-- 
 
 ## 📸 Capturas de Pantalla
 
