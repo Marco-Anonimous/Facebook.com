@@ -5,12 +5,15 @@ Este proyecto es una réplica animada de la página de inicio de **Facebook**, d
 - **Tecnologías:** HTML y CSS.
 - **Características de diseño:** Uso de unidades de medida en `rem` y `flexbox` para una estructura flexible y adaptable.
 
+![anonimous-hacker](https://github.com/user-attachments/assets/3e97c46c-46fb-490a-b059-b783c4855bbc)
+
 ## 🎥 Vista Previa Animada
 
 ### 🖥️📱 Cambio de Versión Escritorio a Móvil:
 
-![Vista Previa Animada](https://user-images.githubusercontent.com/your-username/animated-preview.gif)
-
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/3e97c46c-46fb-490a-b059-b783c4855bbc" alt="anonimous-hacker" width="500">
+</div>
 ---
 
 ## 📸 Capturas de Pantalla
@@ -64,7 +67,5 @@ Para más información o asistencia, puedes contactarme en:
 <marquee behavior="scroll" direction="left" scrollamount="10" bgcolor="#000000" style="color: #ff0000; font-size: 20px; font-weight: bold;">
   🚀 ¡Explora mis proyectos y colaboremos juntos! 🚀
 </marquee>
-
-![anonimous-hacker](https://github.com/user-attachments/assets/3e97c46c-46fb-490a-b059-b783c4855bbc)
 
 
