@@ -61,6 +61,9 @@ Para más información o asistencia, puedes contactarme en:
 
 ## 🖥️ Mensaje Animado
 
-<marquee behavior="scroll" direction="left">🚀 ¡Bienvenido a mi perfil de GitHub! 🚀</marquee>
+<marquee behavior="scroll" direction="left" scrollamount="10" bgcolor="#000000" style="color: #ff0000; font-size: 20px; font-weight: bold;">
+  🚀 ¡Explora mis proyectos y colaboremos juntos! 🚀
+</marquee>
+
 
 
